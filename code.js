@@ -31,7 +31,7 @@ for (i=0; i<=10; i++) {
         document.write("<td>" + `${counter} __ ${arr[i][j]}` + "<\/td>")
         counter--;
     }
-      document.writeln("<\/tr>");
+        document.writeln("<\/tr>");
 }
 
 document.write ("<\/table> ");
