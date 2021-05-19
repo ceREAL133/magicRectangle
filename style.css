@@ -1,0 +1,9 @@
+.square{
+    width: 200px;
+    height: 200px;
+    background: #000;
+    position: relative;
+    margin-left: 45%;
+    margin-top: 5%;
+    margin-bottom: 10%;;
+}
