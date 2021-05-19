@@ -14,7 +14,8 @@ let arr = [];
 for (let i = 0; i < 10; i++){  //vertical quantity
     arr[i] = [];
     for (let j = 0; j < 10; j++) {  //horizontal quantity
-        if (i + j === 9 && j !== 9) {
+        const size = 9;
+        if (i + j === size && j !== size) {
             arr[i][j] = key
         } else{
             arr[i][j] = randomValueInitializator();
